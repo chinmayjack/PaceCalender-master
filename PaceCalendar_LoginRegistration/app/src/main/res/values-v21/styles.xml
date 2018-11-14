@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ArrowStyle">
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="MonthStyle">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="AppTheme.LoginRegister" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/md_light_blue_400</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="colorPrimary">@color/md_light_green_800_dark</item>
+        <item name="colorPrimaryDark">@color/md_deep_purple_900_dark</item>
+        <item name="colorAccent">@color/md_light_blue_900</item>
+        <item name="android:statusBarColor">@color/md_light_green_800_dark</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:textColorSecondaryInverse">@color/colorDarkGrey</item>
+        <item name="android:textColorSecondary">@color/color_accent</item>
+    </style>
+
+    <style name="DialogCustomTheme" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@color/Trans</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorBackground">@color/cardview_light_background</item>
+        <item name="android:textColorPrimaryInverse">@color/background_holo_light</item>
+        <item name="android:colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+</resources>
